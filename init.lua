@@ -1,0 +1,10 @@
+require("plugins")
+require("plugins.mason")
+require("plugins.cmp")
+require("plugins.conform")
+require("plugins.git-signs")
+require("plugins.nvim-ts")
+require("plugins.nvim-tree")
+
+require("configs")
+require("keymaps")

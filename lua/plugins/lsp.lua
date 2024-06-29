@@ -1,0 +1,11 @@
+local lspConfig = require("lspconfig")
+local capabilities = require("cmp_nvim_lsp").default_capabilities({})
+
+lspConfig.html.setup({ capabilities = capabilities })
+lspConfig.cssls.setup({ capabilities = capabilities })
+lspConfig.tsserver.setup({ capabilities = capabilities })
+lspConfig.tailwindcss.setup({ capabilities = capabilities })
+lspConfig.sqlls.setup({ capabilities = capabilities })
+lspConfig.bashls.setup({ capabilities = capabilities })
+lspConfig.omnisharp.setup({ capabilities = capabilities })
+lspConfig.lua_ls.setup({ capabilities = capabilities })

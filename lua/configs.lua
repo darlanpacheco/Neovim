@@ -1,17 +1,11 @@
-local opt = vim.opt
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
+vim.opt.autoindent = true
 
--- Setting theme.
-vim.cmd("hi Normal ctermbg=NONE")
-vim.cmd("hi StatusLine ctermbg=NONE")
-vim.cmd("hi StatusLineNC ctermbg=NONE")
+vim.opt.cursorline = true
+vim.opt.wrap = true
+vim.opt.number = true
+vim.opt.relativenumber = true
 
--- Tabs and indentation.
-opt.tabstop = 2
-opt.shiftwidth = 2
-opt.expandtab = true
-opt.autoindent = true
-
-opt.cursorline = true
-opt.wrap = true
-opt.number = true
-opt.relativenumber = true
+vim.cmd("colorscheme catppuccin")
